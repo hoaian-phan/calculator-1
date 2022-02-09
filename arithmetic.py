@@ -21,7 +21,9 @@ def multiply(num1, num2):
 
 def divide(num1, num2):
     """Divide the num1 by num2, returning a floating point."""
-
+    # Add input validation : num2 can't be 0
+    quotient = num1 / num2
+    return quotient
 
 def square(num1):
     """Return the square of num1."""
